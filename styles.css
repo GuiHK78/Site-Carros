@@ -17,22 +17,43 @@ body {
 
 header {
     background-color: #ffffff;
+    height: 190px;
+}
+#botao-veja-mais:hover{
+    background-color: gray;
 }
 
+#botao-enviar-formulario{
+    background-color: (#FF862A);
+}
 
+#botao-enviar-formulario:hover{
+    background-color: gray;
+}
+
+.link-redes-sociais{
+    color: #FF862A; 
+    font-size: 20px;
+}
+.link-redes-sociais:hover{
+    color: gray;
+}
 section {
     padding-bottom: 5rem;
 }
 
-
 .nav-link {
-    color: #CB6D43;
+    color: black;
     font-weight: 600;
+    margin-bottom: 48px;
+}
+.nav-link:hover{
+    color: rgb(187, 187, 187);
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: ("download.jpeg");
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -52,6 +73,20 @@ section {
     height: auto;
 }
 
+.secao-galeria{
+    background-color: rgb(77, 70, 70);
+    justify-content: center;
+    align-items: center;
+    border-radius: 9%;
+}
+
+.imagens-galeria{
+    border-radius: 10%;
+    height: 200px;
+    width: 250px;
+    border: 3px solid white;
+    margin-left: 47px;
+}
 
 .esquerda-conteudo {
     display: flex;
@@ -119,7 +154,6 @@ h2 {
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
-
 }
 
 .formulario {
